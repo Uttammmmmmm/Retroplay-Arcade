@@ -1,0 +1,102 @@
+class GameInfo {
+  const GameInfo(
+    this.id,
+    this.title,
+    this.subtitle,
+    this.icon,
+    this.category,
+    this.imageUrl,
+  );
+  final String id, title, subtitle, icon, category, imageUrl;
+}
+
+const gameCatalog = <GameInfo>[
+  GameInfo(
+    'snake',
+    'Snake Classic',
+    'Eat, grow, survive',
+    '🐍',
+    'Arcade',
+    'https://images.unsplash.com/photo-1628277613967-6abca504d0ac?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'tic_tac_toe',
+    'Tic-Tac-Toe',
+    'A quick two-player duel',
+    '⭕',
+    'Board',
+    'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'dots_boxes',
+    'Dots & Boxes',
+    'Claim squares, outsmart a friend',
+    '🔲',
+    'Board',
+    'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'number_merge',
+    'Number Merge',
+    'Merge tiles to reach 2048',
+    '🔢',
+    'Puzzle',
+    'https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'memory_match',
+    'Memory Match',
+    'Find matching pairs',
+    '🃏',
+    'Puzzle',
+    'https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'minesweeper',
+    'Minesweeper',
+    'Find safe cells, avoid mines',
+    '💣',
+    'Puzzle',
+    'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'pong',
+    'Pong',
+    'The original paddle duel',
+    '🏓',
+    'Arcade',
+    'https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'whack_a_mole',
+    'Whack-a-Mole',
+    'Tap fast, build a combo',
+    '🔨',
+    'Arcade',
+    'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'sliding_puzzle',
+    'Sliding Puzzle',
+    'Put the tiles in order',
+    '🧩',
+    'Puzzle',
+    'https://images.unsplash.com/photo-1577741314755-048d8525d31e?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'hangman',
+    'Hangman',
+    'Guess the hidden word',
+    '🔤',
+    'Word',
+    'https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&w=400&q=80',
+  ),
+  GameInfo(
+    'reaction_tap',
+    'Reaction Tap',
+    'Test your reflexes',
+    '⚡',
+    'Arcade',
+    'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=400&q=80',
+  ),
+];
